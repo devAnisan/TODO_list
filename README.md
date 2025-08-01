@@ -44,7 +44,6 @@ git clone https://github.com/tu-usuario/TODO_list.git
 cd TODO_list
 
 
-> Proyecto creado con fines educativos y prácticos ✨
 ```
 
 ### 2. Instala las dependencias
@@ -58,3 +57,5 @@ npm install
 ```bash
 npm run dev
 ```
+
+> Proyecto creado con fines educativos y prácticos ✨
