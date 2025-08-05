@@ -21,6 +21,9 @@ const saveInStorage = () => {
 
 export const useList = () => {
   const addTask = (newTask: string) => {
+    if (newTask === '') {
+      return
+    }
     tasks.value.push({
       id: Date.now(),
       descTask: newTask,
